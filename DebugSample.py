@@ -1,0 +1,6 @@
+print("This is Statement-1")
+print("This is Statement-2")
+print("This is Statement-3")
+print("This is Statement-4")
+print("This is Statement-5")
+print("This is Statement-6")
