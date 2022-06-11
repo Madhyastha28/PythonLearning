@@ -1,5 +1,4 @@
 from time import sleep
-
 import driver as driver
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.by import By
@@ -15,3 +14,6 @@ sleep(2)
 driver.find_element(By.ID, "Password").send_keys("Password")
 driver.find_element(By.CLASS_NAME, "login-btn").click()
 sleep(2)
+
+driver.implicitly_wait(10)
+driver.close()
