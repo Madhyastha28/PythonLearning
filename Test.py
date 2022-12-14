@@ -1,3 +1,5 @@
-val = input("Enter a name:  ")
-a= len(val)
-print(val[3:-1])
+# val = input("Enter a name:  ")
+# a = len(val)
+# print(val[::-1])
+nam = input("Enter a name:  ")
+# ln = len(nam)
